@@ -8,6 +8,8 @@ This project provisions a **static website** on AWS using **S3 + CloudFront**, f
 - **IAM & Bucket Policy** – Controls access to content.
 - **Terraform** – Infrastructure as Code for repeatable deployments.
 
+![Architecture](./diagram.png)
+
 ## 📂 Project Structure
 terraform-s3-cloudfront-static-site/
 ├── main.tf # Core resources (S3, CloudFront, IAM policy)
